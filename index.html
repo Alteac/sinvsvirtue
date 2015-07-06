@@ -13,6 +13,14 @@
         text-align: center;
       }
     </style>
+    <script>
+      var sins = 0;
+      var virtues = 0;
+      function sinsplus1() {
+        sins = sins + 1.value;
+        document.getElementById("titletop").innerHTML = sins " Sins " virtues " Virtues";
+      }
+    </script>
   </head>
   <body>
     <h1 id="boxedtitle">
@@ -20,5 +28,17 @@
          Vs  
             Virtues
     </h1>
+    <table>
+      <tr>
+        <td>
+          <div onclick="sinsplus1()">
+      <h1 id="divh1e">
+        Click Here To Commit Sins
+      </h1>
+    </div>
+        </td>
+        <td
+      </tr>
+    </table>
   </body>
 </html>
