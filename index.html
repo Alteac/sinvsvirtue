@@ -16,8 +16,7 @@
     <script>
       var sins = 0;
       var virtues = 0;
-      document.getElementById("casspo").onclick = function() sinsplus1();
-      function sinsplus1() {
+      function sinsplusone() {
         sins = sins + 1.value;
         document.getElementById("titletop").innerHTML = sins " Sins " virtues " Virtues".value;
       }
@@ -25,14 +24,12 @@
   </head>
   <body>
     <h1 id="boxedtitle">
-      Sins  
-         Vs  
-            Virtues
+      Sins Vs Virtues
     </h1>
     <table>
-      <tr>
+      <tbody>      <tr>
         <td>
-          <div id="casspo">
+          <div onclick="sinsplusone()" id="casspo">
       <h1 id="divh1e">
         Click Here To Commit Sins
       </h1>
@@ -40,6 +37,7 @@
         </td>
         <td
       </tr>
-    </table>
+</tbody>
+      </table>
   </body>
 </html>
