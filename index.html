@@ -31,7 +31,7 @@
       var virtues = 0;
       function sinsplusone() {
         sins = sins + 1.value;
-        var s101 = document.getElementById('titletop');
+        var s101 = document.getElementById('titletop').innerHTML;
         s101 = sins "Sins" virtues "Virtues";
       }
     </script>
@@ -46,6 +46,13 @@
           <div onclick="sinsplusone()" id="casspo">
       <h1 id="divh1e">
         Click Here To Commit Sins
+      </h1>
+    </div>
+        </td>
+        <td>
+          <div onclick="virtuesplusone()" id="cavspo">
+      <h1 id="divh1e">
+        Click Here To Commit Virtues
       </h1>
     </div>
         </td>
