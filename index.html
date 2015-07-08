@@ -29,14 +29,14 @@
     <script>
       var sins = 0;
       var virtues = 0;
-      function sinsplusone() {
+      /* function sinsplusone() {
         sins = sins + 1.value;
         document.getElementById('titletop').innerHTML = sins "Sins" virtues "Virtues";
       }
       function virtuesplusone() {
         virtues = virtues + 1.value;
         document.getElementById('titletop').innerHTML = sins "Sins" virtues "Virtues";
-      }
+      } */
     </script>
   </head>
   <body>
@@ -59,7 +59,18 @@
       </h1>
     </div>
         </td>
-        <td
+      </tr>
+      <tr>
+        <td>
+          <p id="sinstext">
+            <span id="sinsvarprint"> </span> sins
+          </p>
+        </td>
+        <td>
+          <p id="virtuestext">
+            <span id="virtuesvarprint"> </span> virtues
+          </p>
+        </td>
       </tr>
 </tbody>
       </table>
